@@ -65,9 +65,8 @@ _____________________________________
 ### Week 6:
   * On Thorns, the HUD is hidden during the cutscene
   * Also there's the Background girls being spooky during the "Hey!" parts of the Instrumental
-
 ### Week 7:
-  * On Ygh, there is a cutscebe and all the animations
+  * On Ugh, there is a cutscebe and all the animations
   * Also there's 'AhAh' sound on the song
 ## Cool new Chart Editor changes and countless bug fixes
 ![](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/docs/img/chart.png?raw=true)
