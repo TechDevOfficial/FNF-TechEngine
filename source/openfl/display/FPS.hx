@@ -102,7 +102,8 @@ class FPS extends TextField
 			text += "\nstage3DDC: " + Context3DStats.contextDrawCalls(DrawCallContext.STAGE3D);
 			#end
 
-			text += "\n";
+			text += "\nTechEngine";
+			// Fixing some in this file
 		}
 
 		cacheCount = currentCount;
