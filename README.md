@@ -23,8 +23,8 @@ otherwise, you can delete the "VIDEOS_ALLOWED" Line on Project.xml
 * Shadow Mario - Programmer
 * RiverOaken - Artist
 * Yoshubs - Assistant Programmer
-* **TechDeveloper - Main Programmer Of T.E.
-* **Super - Touch Function Creator and helper
+* **TechDeveloper** - Main Programmer Of T.E.
+* **Super** - Touch Function Creator and helper
 
 ### Special Thanks
 * bbpanzu - Ex-Programmer
