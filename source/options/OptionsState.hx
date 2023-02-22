@@ -59,7 +59,8 @@ class OptionsState extends MusicBeatState
 		DiscordClient.changePresence("Options Menu", null);
 		#end
 
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('optionsBack'));
+		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg.color = 0xFFea71fd;
 		bg.updateHitbox();
 
 		bg.screenCenter();
@@ -71,16 +72,16 @@ class OptionsState extends MusicBeatState
 
 		for (i in 0...options.length)
 		{
-			var optionText:FlxText = new FlxText(100, FlxG.height - 400, 0, options[i], true);
-			optionText.setFormat("vcr.ttf", 40,FlxColor.GREEN, LEFT);
-			optionText.y += (60 * (i - (options.length / 2))) + 50;
-			add(optionText);
+			var optionText:Alphabet = new Alphabet(0, 0, options[i], true);
+			optionText.screenCenter();
+			optionText.y += (100 * (i - (options.length / 2))) + 50;
+			grpOptions.add(optionText);
 		}
 
-		var tv:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('optionsFront'));
-		tv.scrollFactor.set(1, 1);
-		tv.scale.set(1,1);
-		add(tv);
+		selectorLeft = new Alphabet(0, 0, '>', true);
+		add(selectorLeft);
+		selectorRight = new Alphabet(0, 0, '<', true);
+		add(selectorRight);
 
 		changeSelection();
 		ClientPrefs.saveSettings();
@@ -111,7 +112,6 @@ class OptionsState extends MusicBeatState
 		if (controls.ACCEPT) {
 			openSelectedSubstate(options[curSelected]);
 		}
-		
 	}
 	
 	function changeSelection(change:Int = 0) {
@@ -127,7 +127,9 @@ class OptionsState extends MusicBeatState
 			item.targetY = bullShit - curSelected;
 			bullShit++;
 
+			item.alpha = 0.6;
 			if (item.targetY == 0) {
+				item.alpha = 1;
 				selectorLeft.x = item.x - 63;
 				selectorLeft.y = item.y;
 				selectorRight.x = item.x + item.width + 15;
