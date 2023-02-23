@@ -2,7 +2,7 @@
 
 ## Installation:
 
-**TechEngine Link** Based On Psych 0.6.3 [Download](https://github.com/TechDevOfficial/FNF-TechEngine/releases/download/fnf-engine/TechEngine64Bit.Beta.Release.zip)
+**TechEngine Link** Based On Psych 0.6.3 [Download](https://github.com/TechDevOfficial/FNF-TechEngine/releases/download/beta-release/TechEngine64Bit.Beta.Release.zip)
 
 You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
 
