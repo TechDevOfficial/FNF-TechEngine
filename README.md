@@ -1,6 +1,6 @@
 # Friday Night Funkin' - Tech IN-Engine
 
-<p align="center"><a href="https://github.com/TechDevOfficial/FNF-TechEngine/releases/"><img src="https://badgen.net/github/release/babel/babel"></a></p>
+<p align="center"><a href="https://github.com/TechDevOfficial/FNF-TechEngine/releases/"><img src="https://badgen.net/badge/Release/beta-release/red?icon=github"></a></p>
 
 ## Installation:
 
