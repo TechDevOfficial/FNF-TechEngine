@@ -1,6 +1,5 @@
 # Friday Night Funkin' - Tech IN-Engine
-
-[![stars](https://custom-icon-badges.demolab.com/github/stars/DenverCoder1/custom-icon-badges?logo=star)](https://github.com/DenverCoder1/custom-icon-badges/stargazers "stars")
+<a href="https://github.com/TechDevOfficial/FNF-TechEngine/releases/"><img src="https://img.shields.io/badge/?logo=logo_50x5"/></a>
 ## Installation:
 
 **TechEngine Link** Based On Psych 0.6.3 [Download](https://github.com/TechDevOfficial/FNF-TechEngine/releases/download/beta-release/TechEngine64Bit.Beta.Release.zip)
