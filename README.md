@@ -1,5 +1,5 @@
 # Friday Night Funkin' - Tech IN-Engine
-<p align="center"><a href="https://github.com/Eisbison/TheOtherRoles/releases/"><img src="https://badgen.net/github/release/eisbison/theotherroles"></a></p>
+<p align="center"><a href="https://github.com/TechDevOfficial/FNF-TechEngine/releases/"><img src="https://badgen.net/badge/Releases/Latest/:red?icon=github"></a></p>
 ## Installation:
 
 **TechEngine Link** Based On Psych 0.6.3 [Download](https://github.com/TechDevOfficial/FNF-TechEngine/releases/download/beta-release/TechEngine64Bit.Beta.Release.zip)
